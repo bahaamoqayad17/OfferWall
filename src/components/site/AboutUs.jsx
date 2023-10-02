@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import Conatiner from "@mui/material/Container";

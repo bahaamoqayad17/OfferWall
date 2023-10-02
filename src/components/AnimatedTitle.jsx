@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useSpring, animated } from "react-spring";
+/* eslint-disable */
 
 const AnimatedTitle = ({ title, color, size, width, mobileSize }) => {
   const [hovered, setHovered] = useState(false);

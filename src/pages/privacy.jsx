@@ -121,7 +121,7 @@ const Page = () => {
                   <Title>Applicable Laws</Title>
                   <Content>
                     The policy may include information about the laws and
-                    regulations that govern data protection in the company's
+                    regulations that govern data protection in the company’s
                     operating jurisdiction.
                   </Content>
                 </Box>
