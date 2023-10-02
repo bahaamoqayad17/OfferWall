@@ -1,0 +1,12 @@
+[
+    {
+        "_id": "5c8a1d5b0190b214360dc050",
+        "meta_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo, fugiat reiciendis doloribus vero animi odit id labore autem expedita.",
+        "meta_title":"OfferWall",
+        "meta_keywords":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo, fugiat reiciendis doloribus vero animi odit id labore autem expedita.",
+        "image":"logo.svg",
+        "payment_terms":"Net-15",
+        "profit_percentage":50,
+        "api_key":"5c8a1d5b0190b214360dc050-api-key"
+    }
+]

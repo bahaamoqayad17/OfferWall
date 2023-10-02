@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "5c8a1d5b0190b214360dc057",
+    "name": "Super Admin",
+    "email": "admin@admin.com",
+    "app_url": "http://localhost:3000",
+    "last_login_ip": "127.0.0.1",
+    "status": "1",
+    "role": "Admin",
+    "password": 123456
+  }
+]
