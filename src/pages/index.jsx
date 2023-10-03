@@ -221,14 +221,14 @@ const Page = () => {
                     <Box ml={3}>
                       <Typography
                         color={"#393D46"}
-                        fontSize={20}
+                        fontSize={{ md: 20, xs: 18 }}
                         fontWeight={600}
                       >
                         {item.title}
                       </Typography>
                       <Typography
                         color={"#393D46"}
-                        fontSize={16}
+                        fontSize={{ md: 16, xs: 14 }}
                         fontWeight={400}
                       >
                         {item.content}

@@ -197,11 +197,11 @@ const Monetize = () => {
           </Grid>
           <Grid item xs={12} md={3} color={"#fff"} mt={15}>
             <animated.div style={Content}>
-              <Typography fontSize={82} fontWeight={700}>
+              <Typography fontSize={{ md: 82, xs: 60 }} fontWeight={700}>
                 Monetize
               </Typography>
               <Line />
-              <Typography mt={2} fontSize={32} fontWeight={600}>
+              <Typography mt={2} fontSize={{ md: 32, xs: 26 }} fontWeight={600}>
                 How publishers can monetize their apps or websites using your
                 platform.
               </Typography>
