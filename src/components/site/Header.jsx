@@ -88,7 +88,7 @@ const Header = () => {
 
           <Box display={{ xs: "none", md: "block" }} className="header-image">
             <animated.div style={SlideInImage}>
-              <img src="./header.svg" alt="" />
+              <img src="./Header.svg" alt="" />
             </animated.div>
           </Box>
         </Box>
