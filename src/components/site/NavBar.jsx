@@ -22,7 +22,7 @@ const navItems = [
   { title: "Home", link: "/" },
   { title: "About Us", link: "/" },
   { title: "Features", link: "/" },
-  { title: "MONETIZE", link: "/" },
+  { title: "Monetize", link: "/" },
   { title: "Contact", link: "/contact" },
 ];
 

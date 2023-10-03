@@ -127,4 +127,7 @@ section {
     right: -18px;
     top: 15%;
   }
+  .nav-link {
+    font-size: 16px;
+  }
 }
