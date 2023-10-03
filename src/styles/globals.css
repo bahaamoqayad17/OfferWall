@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "SF Pro Display";
-  src: url("/fonts/SF-Pro-Display-Regular.otf");
+  font-family: "Chillax";
+  src: url("/fonts/Chillax-Regular.otf");
 }
 
 @font-face {
-  font-family: "SF Pro Display";
-  src: url("/fonts/SF-Pro-Display-Bold.otf");
+  font-family: "Chillax";
+  src: url("/fonts/Chillax-Bold.otf");
   font-weight: bold;
 }
 
 @font-face {
-  font-family: "SF Pro Display";
-  src: url("/fonts/SF-Pro-Display-Heavy.otf");
+  font-family: "Chillax";
+  src: url("/fonts/Chillax-Heavy.otf");
   font-weight: 800;
 }
 
@@ -19,7 +19,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "SF Pro Display", sans-serif !important;
+  font-family: "Chillax", sans-serif !important;
 }
 
 body {
@@ -57,8 +57,8 @@ section {
 
 .header-image {
   position: absolute;
-  right: 10px;
-  top: -15%;
+  right: -10px;
+  top: -14%;
   z-index: 5;
 }
 
@@ -114,5 +114,17 @@ section {
 @media (max-width: 768px) {
   .features {
     padding-top: 0;
+  }
+
+  .header-title {
+    font-size: 30px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+  .header-image {
+    width: 85%;
+    right: -18px;
+    top: 15%;
   }
 }

@@ -11,10 +11,11 @@ import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import { useRouter } from "next/router";
+import Router, { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
+import Button from "@mui/material/Button";
 
 const drawerWidth = 240;
 const navItems = [
@@ -38,6 +39,8 @@ function NavBar(props) {
   const drawer = (
     <>
       <Box onClick={handleDrawerToggle} sx={{ p: 2 }}>
+        <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
+
         <List>
           {navItems.map((item) => (
             <ListItem key={item.title} disablePadding>
@@ -52,6 +55,22 @@ function NavBar(props) {
             </ListItem>
           ))}
         </List>
+
+        <Button
+          onClick={() => Router.push("/login")}
+          fullWidth
+          sx={{ mb: 2 }}
+          variant="contained"
+        >
+          Login
+        </Button>
+        <Button
+          onClick={() => Router.push("/register")}
+          fullWidth
+          variant="outlined"
+        >
+          Register
+        </Button>
       </Box>
     </>
   );
@@ -79,12 +98,12 @@ function NavBar(props) {
               justifyContent: "space-between",
             }}
           >
+            <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
             <MenuIcon
               fontSize="large"
               color="black"
               onClick={handleDrawerToggle}
             />
-            <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
           </IconButton>
 
           <Container>

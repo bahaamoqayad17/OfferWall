@@ -40,7 +40,8 @@ const Header = () => {
               <TypeAnimation
                 sequence={["OfferWall", 1000, "OfferWall - Monetize", 1000]}
                 wrapper="h1"
-                speed={50}
+                speed={2}
+                className="header-title"
                 style={{
                   fontSize: "56px",
                   fontWeight: 800,
@@ -52,9 +53,11 @@ const Header = () => {
               <TypeAnimation
                 sequence={["Your Web", 1000, "Your Web - App", 1000]}
                 wrapper="h1"
-                speed={50}
+                speed={2}
+                className="header-title"
                 style={{
                   fontSize: "56px",
+
                   fontWeight: 800,
                   color: "#0079FF",
                   display: "block",
