@@ -39,7 +39,7 @@ const Image = styled("img")(({ theme }) => ({
 
 const AboutImage = styled("img")(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
-    display: "none",
+    width: "100%",
   },
 }));
 
