@@ -39,7 +39,12 @@ function NavBar(props) {
   const drawer = (
     <>
       <Box onClick={handleDrawerToggle} sx={{ p: 2 }}>
-        <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
+        <img
+          onClick={() => Router.push("/")}
+          style={{ cursor: "pointer", marginTop: 4 }}
+          src="/logo.svg"
+          alt="test"
+        />
 
         <List>
           {navItems.map((item) => (
@@ -98,7 +103,12 @@ function NavBar(props) {
               justifyContent: "space-between",
             }}
           >
-            <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
+            <img
+              onClick={() => Router.push("/")}
+              style={{ cursor: "pointer", marginTop: 4 }}
+              src="/logo.svg"
+              alt="test"
+            />
             <MenuIcon
               fontSize="large"
               color="black"

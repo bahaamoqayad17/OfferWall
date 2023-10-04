@@ -132,8 +132,8 @@ const ChooseUSItems = [
 
 const Circle1 = styled("img")(({ theme }) => ({
   position: "absolute",
-  bottom: "60%",
-  left: "-12%",
+  top: "-20%",
+  left: "-15%",
   [theme.breakpoints.down("sm")]: {
     display: "none",
   },
@@ -141,8 +141,8 @@ const Circle1 = styled("img")(({ theme }) => ({
 
 const Circle2 = styled("img")(({ theme }) => ({
   position: "absolute",
-  top: "60%",
-  right: "-12%",
+  bottom: "-20%",
+  right: "-15%",
   [theme.breakpoints.down("sm")]: {
     display: "none",
   },
@@ -177,14 +177,19 @@ const Page = () => {
             slidesPerView={3}
             breakpoints={{
               0: { slidesPerView: 1 },
-              768: { slidesPerView: 4 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 4 },
             }}
           >
             {items.map((item, i) => (
               <>
                 <SwiperSlide key={i}>
                   <Item key={i}>
-                    <img style={{ marginBottom: 20 }} src={item.icon} alt="" />
+                    <img
+                      style={{ marginBottom: 20 }}
+                      src={item.icon}
+                      alt="test"
+                    />
                     <h3>{item.title}</h3>
                     <p>{item.content}</p>
                   </Item>
@@ -196,8 +201,8 @@ const Page = () => {
       </section>
 
       <WhyChooseUS>
-        <Circle1 src="./Circle.svg" alt="" />
-        <Circle2 src="./Circle.svg" alt="" />
+        <Circle1 src="./Circle.svg" alt="test" />
+        <Circle2 src="./Circle.svg" alt="test" />
         <Container>
           <Box mb={7}>
             <AnimatedTitle
@@ -216,7 +221,7 @@ const Page = () => {
                     <img
                       style={{ objectFit: "cover" }}
                       src={item.icon}
-                      alt=""
+                      alt="test"
                     />
                     <Box ml={3}>
                       <Typography

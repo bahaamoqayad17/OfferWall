@@ -127,6 +127,10 @@ section {
     right: -18px;
     top: 15%;
   }
+
+  .about-item {
+    padding: 16px 20px;
+  }
   .nav-link {
     font-size: 16px;
   }

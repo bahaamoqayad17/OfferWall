@@ -37,12 +37,12 @@ const Footer = () => {
         position: "relative",
       }}
     >
-      <Circle1 src="./Circle-gray-left.svg" alt="" />
-      <Circle2 src="./Circle-gray-right.svg" alt="" />
+      <Circle1 src="./Circle-gray-left.svg" alt="test" />
+      <Circle2 src="./Circle-gray-right.svg" alt="test" />
       <Container sx={{ py: 10, pb: 5 }}>
         <Grid container spacing={2}>
           <Grid xs={12} sm={6} md={6} item>
-            <img src="./logo-white.svg" alt="" />
+            <img src="./logo-white.svg" alt="test" />
             <Typography maxWidth={300}>
               Make your visitors as customers and turn your
               website/application/games profitable business for you with our
@@ -77,7 +77,7 @@ const Footer = () => {
               </Link>
             </Box>
             <Link href={"/"} style={{ display: "flex", alignItems: "center" }}>
-              <img src="/skype-footer.svg" alt="" />
+              <img src="/skype-footer.svg" alt="test" />
               &nbsp; Skype
             </Link>
           </Grid>

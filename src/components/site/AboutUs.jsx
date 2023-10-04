@@ -98,7 +98,7 @@ const AboutUs = () => {
                   width={"300px"}
                   mobileSize={"60px"}
                 />
-                <AboutImage src="./about.svg" alt="" />
+                <AboutImage src="./about.svg" alt="test" />
               </Box>
               <Box sx={{ px: { md: 11, xs: 2 } }}>
                 <Title>The Best OfferWall Offers To Boost Your Profits</Title>
@@ -116,7 +116,7 @@ const AboutUs = () => {
             <Box
               display={"flex"}
               justifyContent={"space-around"}
-              flexDirection={{ xs: "column", md: "row" }}
+              flexDirection={{ xs: "column", sm: "row" }}
             >
               {items.map((item, i) => (
                 <animated.div
@@ -139,7 +139,7 @@ const AboutUs = () => {
                   <Icon>
                     <Image
                       src={itemHover === i ? item.hoveredIcon : item.icon}
-                      alt=""
+                      alt="test"
                     />
                   </Icon>
                   <Box ml={2}>

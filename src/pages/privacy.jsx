@@ -128,7 +128,7 @@ const Page = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={4}>
-              <img src="/privacy.svg" alt="" />
+              <img src="/privacy.svg" alt="test" />
             </Grid>
           </Grid>
         </Container>

@@ -49,7 +49,7 @@ const Contact = () => {
               <h3>Get In Touch</h3>
               <p>Ready to get started?</p>
               <p>Send us an email at m.reyad.s@gmail.com</p>
-              <img src="./contact.png" alt="" />
+              <img src="./contact.png" alt="test" />
             </Item>
           </Box>
         </section>

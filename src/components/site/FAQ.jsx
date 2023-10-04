@@ -83,7 +83,7 @@ const FAQ = () => {
               position: "relative",
             }}
           >
-            <Image src="/accordion.svg" alt="" />
+            <Image src="/accordion.svg" alt="test" />
             {items.map((item, index) => (
               <Accordion
                 key={index}

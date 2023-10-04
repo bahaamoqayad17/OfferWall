@@ -128,7 +128,7 @@ function UserLayout(props) {
         }}
       >
         <center>
-          <Image src="/logo.svg" alt="" />
+          <Image src="/logo.svg" alt="test" />
         </center>
 
         <Divider sx={{ my: 3, backgroundColor: "#E5E7EB" }} />
@@ -151,7 +151,7 @@ function UserLayout(props) {
               <EmailDashboard /> &nbsp; Email: example@gmail.com
             </Content>
             <Content>
-              <img src="/Skype.svg" alt="" /> &nbsp; &nbsp;Skype
+              <img src="/Skype.svg" alt="test" /> &nbsp; &nbsp;Skype
               live:767275282672
             </Content>
           </Details>

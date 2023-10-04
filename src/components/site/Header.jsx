@@ -88,12 +88,12 @@ const Header = () => {
 
           <Box display={{ xs: "none", md: "block" }} className="header-image">
             <animated.div style={SlideInImage}>
-              <img src="./Header.svg" alt="" />
+              <img src="./Header.svg" alt="test" />
             </animated.div>
           </Box>
         </Box>
       </Container>
-      <Circle src="./quarter-circle.svg" alt="" />
+      <Circle src="./quarter-circle.svg" alt="test" />
     </headerc>
   );
 };

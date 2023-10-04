@@ -172,11 +172,11 @@ const Monetize = () => {
               <Grid container spacing={4}>
                 {items.map((item, index) => (
                   <>
-                    <Grid item md={6}>
+                    <Grid item md={6} xs={12}>
                       <Item>
                         <Number>0{++index}</Number>
                         <Icon>
-                          <Image src={item.icon} alt="" />
+                          <Image src={item.icon} alt="test" />
                         </Icon>
                         <Typography my={1} fontSize={24} fontWeight={700}>
                           {item.title}
@@ -210,7 +210,7 @@ const Monetize = () => {
           <Grid item xs={12} md={4}>
             <center>
               <animated.div style={MobileImage}>
-                <img src="./mobile.svg" alt="" />
+                <img src="./mobile.svg" alt="test" />
               </animated.div>
             </center>
           </Grid>
