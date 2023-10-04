@@ -11,9 +11,11 @@ import Grid from "@mui/material/Grid";
 import FAQ from "@/components/site/FAQ";
 import Contact from "@/components/site/Contact";
 
-import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
+import "swiper/css/navigation";
 
 const Item = styled("div")(({ theme }) => ({
   display: "flex",
@@ -174,14 +176,14 @@ const Page = () => {
             Highlight the unique features that set your offerwall apart
           </Typography>
           <Swiper
-            // modules={[Autoplay]}
+            modules={[Autoplay]}
             spaceBetween={20}
             slidesPerView={3}
-            // autoplay
-            // autoplay={{
-            //   delay: 3000,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
             breakpoints={{
               0: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
