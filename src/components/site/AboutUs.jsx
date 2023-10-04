@@ -143,10 +143,10 @@ const AboutUs = () => {
                     />
                   </Icon>
                   <Box ml={2}>
-                    <Typography fontSize={{ md: 36, xs: 24 }} fontWeight={500}>
+                    <Typography fontSize={{ md: 36, xs: 24 }} fontWeight={600}>
                       {item.title}
                     </Typography>
-                    <Typography fontSize={{ md: 20, xs: 16 }} fontWeight={500}>
+                    <Typography fontSize={{ md: 20, xs: 16 }} fontWeight={600}>
                       {item.content}
                     </Typography>
                   </Box>
