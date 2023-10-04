@@ -3,9 +3,6 @@ import Header from "@/components/site/Header";
 import Monetize from "@/components/site/Monetize";
 import SiteLayout from "@/components/site/SiteLayout";
 import Container from "@mui/material/Container";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/autoplay";
 import styled from "@emotion/styled";
 import AnimatedTitle from "@/components/AnimatedTitle";
 import Typography from "@mui/material/Typography";
@@ -13,6 +10,10 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import FAQ from "@/components/site/FAQ";
 import Contact from "@/components/site/Contact";
+
+import { Swiper, SwiperSlide, Autoplay } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
 
 const Item = styled("div")(({ theme }) => ({
   display: "flex",
@@ -173,8 +174,14 @@ const Page = () => {
             Highlight the unique features that set your offerwall apart
           </Typography>
           <Swiper
+            // modules={[Autoplay]}
             spaceBetween={20}
             slidesPerView={3}
+            // autoplay
+            // autoplay={{
+            //   delay: 3000,
+            //   disableOnInteraction: false,
+            // }}
             breakpoints={{
               0: { slidesPerView: 1 },
               768: { slidesPerView: 2 },

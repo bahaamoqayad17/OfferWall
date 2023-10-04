@@ -9,12 +9,6 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "Chillax";
-  src: url("/fonts/Chillax-Heavy.otf");
-  font-weight: 800;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -102,6 +96,10 @@ section {
   display: inline-block;
 }
 
+.features {
+  padding-top: 0;
+}
+
 .about-title {
   font-size: 60px !important;
   margin-bottom: 20px;
@@ -131,6 +129,7 @@ section {
   .about-item {
     padding: 16px 20px;
   }
+
   .nav-link {
     font-size: 16px;
   }

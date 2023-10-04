@@ -57,7 +57,6 @@ const Header = () => {
                 className="header-title"
                 style={{
                   fontSize: "56px",
-
                   fontWeight: 800,
                   color: "#0079FF",
                   display: "block",
