@@ -21,6 +21,13 @@ const Content = styled("p")(() => ({
   marginBottom: 40,
 }));
 
+const Image = styled("img")(({ theme }) => ({
+  width: "100%",
+  [theme.breakpoints.down("sm")]: {
+    width: "unset",
+  },
+}));
+
 const Page = () => {
   return (
     <>
@@ -128,7 +135,7 @@ const Page = () => {
               </Box>
             </Grid>
             <Grid item xs={12} md={4}>
-              <img src="/privacy.svg" alt="test" />
+              <Image src="/privacy.svg" alt="test" />
             </Grid>
           </Grid>
         </Container>

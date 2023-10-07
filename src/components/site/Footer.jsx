@@ -13,19 +13,15 @@ const Circle1 = styled("img")(({ theme }) => ({
   position: "absolute",
   bottom: "0%",
   left: "0%",
-  // [theme.breakpoints.down("sm")]: {
-  //   display: "none",
-  // },
 }));
 
 const Circle2 = styled("img")(({ theme }) => ({
   position: "absolute",
   top: "0%",
   right: "0%",
-  // [theme.breakpoints.down("sm")]: {
-  //   display: "none",
-  // },
 }));
+
+const Image = styled("img")(({ theme }) => ({}));
 
 const Footer = () => {
   return (
@@ -42,7 +38,7 @@ const Footer = () => {
       <Container sx={{ py: 10, pb: 5 }}>
         <Grid container spacing={2}>
           <Grid xs={12} sm={6} md={6} item>
-            <img src="./logo-white.svg" alt="test" />
+            <Image src="./logo-white.svg" alt="test" />
             <Typography maxWidth={300}>
               Make your visitors as customers and turn your
               website/application/games profitable business for you with our
@@ -59,10 +55,10 @@ const Footer = () => {
                 <Link href={"/"}>TOS</Link>
               </li>
               <li style={{ marginBottom: "7px" }}>
-                <Link href={"/"}>PRIVACY POLICY</Link>
+                <Link href={"/privacy"}>Privacy Policy</Link>
               </li>
               <li style={{ marginBottom: "7px" }}>
-                <Link href={"/"}>MONETIZE</Link>
+                <Link href={"/#Monetize"}>Monetize</Link>
               </li>
             </ul>
           </Grid>
@@ -77,7 +73,7 @@ const Footer = () => {
               </Link>
             </Box>
             <Link href={"/"} style={{ display: "flex", alignItems: "center" }}>
-              <img src="/skype-footer.svg" alt="test" />
+              <Image src="/skype-footer.svg" alt="test" />
               &nbsp; Skype
             </Link>
           </Grid>

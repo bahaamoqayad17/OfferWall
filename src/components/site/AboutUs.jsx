@@ -78,7 +78,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <section>
+      <section id="about">
         <Conatiner>
           <Card
             sx={{

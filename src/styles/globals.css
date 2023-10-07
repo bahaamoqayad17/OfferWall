@@ -16,6 +16,10 @@
   font-family: "Chillax", sans-serif !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f1f3f5;
   overflow-x: hidden;

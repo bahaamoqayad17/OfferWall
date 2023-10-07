@@ -16,15 +16,18 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import MenuIcon from "@mui/icons-material/Menu";
 import Button from "@mui/material/Button";
+import styled from "@emotion/styled";
 
 const drawerWidth = 240;
 const navItems = [
   { title: "Home", link: "/" },
-  { title: "About Us", link: "/" },
-  { title: "Features", link: "/" },
-  { title: "Monetize", link: "/" },
+  { title: "About Us", link: "#about" },
+  { title: "Monetize", link: "#Monetize" },
   { title: "Contact", link: "/contact" },
+  { title: "Login", link: "/login" },
 ];
+
+const Image = styled("img")(({ theme }) => ({}));
 
 function NavBar(props) {
   const { window } = props;
@@ -39,7 +42,7 @@ function NavBar(props) {
   const drawer = (
     <>
       <Box onClick={handleDrawerToggle} sx={{ p: 2 }}>
-        <img
+        <Image
           onClick={() => Router.push("/")}
           style={{ cursor: "pointer", marginTop: 4 }}
           src="/logo.svg"
@@ -103,7 +106,7 @@ function NavBar(props) {
               justifyContent: "space-between",
             }}
           >
-            <img
+            <Image
               onClick={() => Router.push("/")}
               style={{ cursor: "pointer", marginTop: 4 }}
               src="/logo.svg"
@@ -130,7 +133,7 @@ function NavBar(props) {
                   component="div"
                   sx={{ display: { xs: "none", sm: "none", md: "flex" } }}
                 >
-                  <img src="./logo.svg" alt="logo" style={{ marginTop: 4 }} />
+                  <Image src="/logo.svg" alt="logo" style={{ marginTop: 4 }} />
                 </Typography>
               </Box>
               <Box

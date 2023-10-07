@@ -8,6 +8,7 @@ import styled from "@emotion/styled";
 import { useSpring, animated, config } from "react-spring";
 import { useState } from "react";
 import EastIcon from "@mui/icons-material/East";
+import Router from "next/router";
 
 const Circle = styled("img")(({ theme }) => ({
   position: "absolute",
@@ -74,6 +75,7 @@ const Header = () => {
                 color="primary"
                 onMouseEnter={() => setDown(true)}
                 onMouseLeave={() => setDown(false)}
+                onClick={() => Router.push("/register")}
               >
                 Start Now &nbsp;{" "}
                 {down ? (

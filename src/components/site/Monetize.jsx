@@ -150,7 +150,7 @@ const Monetize = () => {
   });
 
   return (
-    <Section ref={ref}>
+    <Section id="Monetize" ref={ref}>
       <animated.img
         src={"./Circle.svg"}
         style={{ zIndex: 5, position: "absolute", ...ImageOneSpring }}

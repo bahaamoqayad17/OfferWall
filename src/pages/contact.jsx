@@ -35,7 +35,7 @@ const Page = () => {
             Contact
           </Typography>
 
-          <Grid container>
+          <Grid container spacing={2}>
             <Grid item xs={12} md={6}>
               <Box>
                 <Label>Full Name</Label>
@@ -104,6 +104,16 @@ const Page = () => {
               >
                 Save
               </Button>
+            </Grid>
+            <Grid item xs={12} md={6}>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.167703411779!2d-106.9549504!3d44.797770799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5335fabc2a655555%3A0x3265c73ab4e065e!2zMzAgTiBHb3VsZCBTdCBTVEUgU1QgUiwgU2hlcmlkYW4sIFdZIDgyODAx2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2s!4v1696661980168!5m2!1sar!2s"
+                width="100%"
+                height="520"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </Grid>
           </Grid>
         </Container>

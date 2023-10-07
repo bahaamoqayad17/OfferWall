@@ -12,7 +12,7 @@ import FAQ from "@/components/site/FAQ";
 import Contact from "@/components/site/Contact";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/navigation";
