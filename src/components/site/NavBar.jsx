@@ -133,7 +133,12 @@ function NavBar(props) {
                   component="div"
                   sx={{ display: { xs: "none", sm: "none", md: "flex" } }}
                 >
-                  <Image src="/logo.svg" alt="logo" style={{ marginTop: 4 }} />
+                  <Image
+                    onClick={() => Router.push("/")}
+                    src="/logo.svg"
+                    alt="logo"
+                    style={{ marginTop: 4 }}
+                  />
                 </Typography>
               </Box>
               <Box
